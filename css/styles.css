@@ -1,19 +1,32 @@
+
+
 body {
 	background-image: url("../assets/background.jpg");
+	background-color: aqua;
 }
 
 h1, h2, h3, h4, h5, h6, p, li {
 	font-family: "Arial";
 	color: black;
+	margin: 10px;
 }
 
-div#mainPanel {
+#mainPanel {
 	background-color: orange;
 	margin: 75px;
 	padding: 10px;
+	box-shadow:
+	0 0 0 2px white,
+	0 0 0 4px orange, 
+	0 0 0 6px white,
+	0 0 0 8px orange,
+	0 0 0 10px white,
+	0 0 0 12px orange,
+	0 0 0 14px white,
+	0 0 0 16px orange;
 }
 
-h1#name {
+#name {
 	text-align: right;
 	float: right;
 	background-color: white;
@@ -21,25 +34,13 @@ h1#name {
 	padding: 10px;
 }
 
-h1.genericWhite {
-	background-color: white;
-	margin: 10px;
-	padding: 10px;
-}
-
-div.genericOrange {
+.genericOrange {
 	background-color: orange;
 	margin: 10px;
 	padding: 10px;
 }
 
-div.genericWhite {
-	background-color: white;
-	margin: 10px;
-	padding: 10px;
-}
-
-img.genericWhite {
+.genericWhite {
 	background-color: white;
 	margin: 10px;
 	padding: 10px;

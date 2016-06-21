@@ -6,6 +6,7 @@
 		<link rel="icon" href="assets/profilepicture.png">
 	</head>
 	<body>
+		<script src="js/index.js"></script>
 		<div id="mainPanel">
 			<img class="genericWhite" src="assets/profilepicture.png" alt="Smiley face">
 			<h1 id="name">Nick Bervar's Awesome Profile</h1>
@@ -20,7 +21,10 @@
 				</ul>
 			</div>
 			<div class="genericWhite">
-				<h1 class="genericWhite"></h1>
+				<h1 class="genericWhite" id="screenWidth">Unknown</h1>
+				<h1 class="genericWhite" id="screenHeight">Unknown</h1>
+				<p id="snoopDogg"></p>
+				<button type="button" onclick="updateScreens()">Get viewport size</button>
 			</div>
 		</div>
 	</body>
