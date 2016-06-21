@@ -1,5 +1,5 @@
 body {
-	background-color: white;
+	background-image: url("../assets/background.jpg");
 }
 
 h1, h2, h3, h4, h5, h6, p, li {
@@ -7,7 +7,13 @@ h1, h2, h3, h4, h5, h6, p, li {
 	color: black;
 }
 
-h1.name {
+div#mainPanel {
+	background-color: orange;
+	margin: 75px;
+	padding: 10px;
+}
+
+h1#name {
 	text-align: right;
 	float: right;
 	background-color: white;
@@ -15,32 +21,33 @@ h1.name {
 	padding: 10px;
 }
 
-h1.inner {
-	background-color: aqua;
-	margin: 10px;
-	padding: 10px;
-}
-
-div.main {
-	background-color: aqua;
-	margin: 10px;
-	padding: 10px;
-}
-
-div.content {
+h1.genericWhite {
 	background-color: white;
 	margin: 10px;
 	padding: 10px;
 }
 
-img {
+div.genericOrange {
+	background-color: orange;
+	margin: 10px;
+	padding: 10px;
+}
+
+div.genericWhite {
 	background-color: white;
 	margin: 10px;
 	padding: 10px;
 }
 
-ul.foods {
-	background-color: aqua;
+img.genericWhite {
+	background-color: white;
 	margin: 10px;
 	padding: 10px;
+}
+
+ul.genericWhite {
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+	margin-left: 30px;
 }
